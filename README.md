@@ -381,7 +381,6 @@ The Bitnami WordPress with NGINX Docker image is designed to be extended so it c
 Before extending this image, please note there are certain configuration settings you can modify using the original image:
 
 - Settings that can be adapted using environment variables. For instance, you can change the ports used by Nginx for HTTP and HTTPS, by setting the environment variables `NGINX_HTTP_PORT_NUMBER` and `NGINX_HTTPS_PORT_NUMBER` respectively.
-- [Adding custom virtual hosts](https://github.com/bitnami/bitnami-docker-apache#adding-custom-virtual-hosts).
 - [Replacing the 'httpd.conf' file](https://github.com/bitnami/bitnami-docker-nginx#full-configuration).
 - [Using custom SSL certificates](https://github.com/bitnami/bitnami-docker-nginx#using-custom-ssl-certificates).
 
